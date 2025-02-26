@@ -6,8 +6,7 @@
   <remote fetch="https://git.toradex.com" name="toradex"/>
   <remote fetch="https://github.com/alliedvision" name="avt-github"/>
 
-  <submanifest name="toradex-manifest" remote="toradex" project="toradex-manifest" 
-manifest-name="tdxref/default.xml" revision="9c368393624bf465dbc1ccd13636ad9056c0b627" path="tordex-bsp"/>
+  <submanifest name="toradex-manifest" remote="toradex" project="toradex-manifest.git" manifest-name="tdxref/default.xml" revision="9c368393624bf465dbc1ccd13636ad9056c0b627" path="tordex-bsp"/>
 
   <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" upstream="scarthgap" revision="66057be5d1ec5cd59125bdb1dd7fd748b756a7b9"/>
   <project name="meta-toradex-avt" path="sources/meta-toradex-avt" remote="avt-github" revision="6e9b070c15b100069206276928c84e5f5ef2a3fa"  upstream="dev"/>
