@@ -47,9 +47,8 @@ repo sync
 The image is build using [kas](https://github.com/siemens/kas). For each board a kas configuration yaml file is available in the root directory after the checkout using repo. The following configuration files are currently available:
 - verdin-imx8mp.yml: For Toradex Verdin iMX8M Plus systems 
 #### 6. Accept NXP EULA
-Some packages for the NXP SoCs require the NXP/Freescale EULA available in "toradex-bsp/layers/meta-freescale/EULA" to be read and accepted. To accept the license uncomment the following lines in the board configuration yaml file:
+Some packages for the NXP SoCs require the NXP/Freescale EULA available in "toradex-bsp/layers/meta-freescale/EULA" to be read and accepted. To accept the license uncomment the following line in the board configuration yaml file:
 ```yaml
-#  accept-fsl-eula: |
 #    ACCEPT_FSL_EULA = "1"  
 ```
 #### 7. Build the AVT Image with the command:  
