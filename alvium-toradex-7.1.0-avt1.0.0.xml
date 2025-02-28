@@ -8,7 +8,7 @@
 
   <submanifest name="toradex-manifest" remote="toradex" project="toradex-manifest.git" manifest-name="tdxref/default.xml" revision="9c368393624bf465dbc1ccd13636ad9056c0b627" path="toradex-bsp"/>
 
-  <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" upstream="scarthgap" revision="ebf06bbfd1f4faef3b6d20ed3d4392223724847c">
+  <project name="meta-alvium-avt" path="sources/meta-alvium-avt" remote="avt-github" upstream="scarthgap" revision="51f77b41f7ea973f370db8053cb18f55979685f1">
     <linkfile dest="verdin-imx8mp.yml" src="tools/boards/verdin-imx8mp.yml"/>
   </project>
   <project name="meta-toradex-avt" path="sources/meta-toradex-avt" remote="avt-github" revision="22477d95c671715ab6caff3f1982db1b8fc1c43f"  upstream="scarthgap"/>
